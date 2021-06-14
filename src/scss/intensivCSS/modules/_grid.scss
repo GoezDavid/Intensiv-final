@@ -1,0 +1,22 @@
+// MODULE DE GRILLE RESPONSIVE
+
+// GRID SYSTEM 12 colonnes
+.grille-g {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .grille-g > * {
+    margin: $grillesGoutieres ;
+    flex-basis: calc(100% - (2 * #{$grillesGoutieres})) ;
+  }
+  
+  @each $etiquette, $dimension in $grilleBreakPoint {
+    @media screen and (min-width: #{$dimension}) {
+      @for $i from 1 through $grillesColonnesNombres {
+        .#{$etiquette}#{$i} {
+          flex-basis: calc((#{$i} * 100% / #{$grillesColonnesNombres}) - (2 * #{$grillesGoutieres}));
+      }
+     }
+   }
+  }

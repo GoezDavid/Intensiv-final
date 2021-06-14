@@ -1,0 +1,14 @@
+/* MODULE DE VISIBILITE */
+@each $etiquette, $dimension in $grilleBreakPoint {
+    .#{$etiquette}-visible {
+      display: none;
+    }
+    @media screen and (min-width: #{$dimension}) {
+      .#{$etiquette}-cache {
+        display: none;
+      }
+      .#{$etiquette}-visible {
+        display: block;
+      }
+    }
+  }

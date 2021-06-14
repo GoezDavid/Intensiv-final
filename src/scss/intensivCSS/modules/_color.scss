@@ -1,0 +1,55 @@
+// variables couleurs
+$blue: #18BFEF;
+$white: #f6f6f6;
+$grey: #717981;
+$brown: #4e403d;
+$black: #212931;
+
+$block-color-dimension: 120px; 
+
+
+//BLOCK COLOR
+
+
+
+.color-block {
+    width: $block-color-dimension;
+    height: $block-color-dimension;
+    display: inline-block;
+    
+    font-size: 1rem;
+    margin-right: 2px;
+
+
+    
+   
+    
+    &.blue {
+       background: $blue;
+       color: white; 
+    }
+    &.white {
+        background: $white;
+        color: white; 
+
+     }
+     &.grey {
+        background: $grey;
+        color: white; 
+     }
+
+     &.brown {
+        background: $brown;
+        color: white; 
+     }
+
+     &.black {
+        background: $black;
+        color: white; 
+     }
+   
+   }
+
+   .white {
+      color: white;
+   }

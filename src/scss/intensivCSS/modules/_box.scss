@@ -1,0 +1,199 @@
+
+
+//-------------------------------------------------
+//ALIGNEMENT DES CONTENUS
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+//BOITES
+
+
+    .boite-img-zoom {
+    width: 75%;
+      height: 100%;
+      margin: auto;
+      padding: 0;
+    }
+
+
+    .boite-fixe {
+        width: 100% ;
+        max-width: 1200px;
+        margin: auto;
+        padding: 1rem;
+
+      }
+      .box {
+          border: 2px solid #f6f6f6;
+          padding: 1rem;
+      }
+.sections {
+    width: 100%;
+    max-width: 600px;
+    padding: 1rem;
+}
+.boite-img {
+    width: 100%;
+    max-width: 400px;
+}
+     
+//  BLOCKS
+.inline-box {
+    display: inline-block;
+}
+.block {
+    display: block;
+}
+
+.float-left {
+    float: left;
+    padding: 2rem;
+}
+
+.float-right {
+    float: right;
+    padding: 2rem;
+}
+
+.flex {
+    display: flex;
+}
+
+//LISTS
+.list-style {
+    list-style: none;
+}
+
+ .list-icon {
+    list-style: none;
+    margin: 3rem;
+
+    & li {
+        display: inline-block;
+       
+
+        & a {
+            text-decoration: none;
+            padding: 0.5rem;
+            
+           
+
+
+            &:hover {
+                color: #18BFEF;
+                border-color: #18BFEF;
+                
+            }
+        }
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+.list-icon2 {
+    list-style: none;
+    margin: 3rem;
+
+    & li {
+        display: inline-block;
+       
+
+        & a {
+            text-decoration: none;
+            border-radius:  100%;
+            border: grey solid 1px;
+            padding: 0.5rem;
+            
+
+
+            &:hover {
+                color: #18BFEF;
+                border-color: #18BFEF;
+                
+            }
+        }
+        
+    }
+}
+
+//IMAGE
+
+.fill {
+    object-fit: unset;
+  }
+
+  .overflow {
+    overflow: hidden;
+    padding: 0 10px;
+    
+}
+.fit {
+    width: 100%;
+        }
+    
+ 
+ 
+/*.galerie {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1200px;
+    margin: 1rem auto 1rem;
+    align-items: center;
+    justify-content: center;
+} 
+.item {
+    width: 300px;
+    height: 150px;
+    margin: 10px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.item img {
+    width: 100%;
+    height: auto;
+}
+*/
+
+.item {
+    width: 300px;
+    height: 150px;
+    overflow: hidden;
+
+}
+
+  //BORDER
+
+  .border {
+      border: 1px solid #717981;
+
+  }
+
+
+// background
+
+.background {
+    background: #f6f6f6;
+ 
+}

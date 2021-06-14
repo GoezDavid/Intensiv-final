@@ -1,0 +1,96 @@
+// BOUTONS
+.btn-articles {
+    padding: 1rem;
+    border: 2px solid black;
+    background: white;
+    color: black;
+    margin: 2rem;
+    cursor: pointer;
+    width: 100%; 
+    max-width: 200px;
+
+    &:hover{
+        color: aqua;
+        border-color: aqua;
+    }
+
+}
+
+
+
+.btn-form {
+    padding: 1rem;
+    border: 2px solid black;
+    background: #f6f6f6;
+    color: black;
+    margin: 2rem;
+    cursor: pointer;
+    width: 100%;
+    max-width: 200px; 
+
+    &:hover{
+        color: aqua;
+        border-color: aqua;
+    }
+
+}
+
+
+.btn-form2 {
+    padding: 1rem;
+    border: 2px solid black;
+    background: black;
+    color: white;
+    margin: 2rem;
+    cursor: pointer; 
+    width: 100%;
+    max-width: 200px;
+
+    &:hover{
+        color: aqua;
+        border-color: aqua;
+    }
+
+}
+
+
+//FORM
+.input {
+    width: 100%;
+    max-width: 500px;
+    max-height: 200px;
+    margin: 0.75rem;
+
+}
+
+.input-100 {
+    width: 100%;
+    max-width: 1000px;
+}
+
+.input-50 {
+    width: 100%;
+    max-width: 500px;
+}
+
+.input-40 {
+    width: 100%;
+    max-width: 450px;
+    height: 25%;
+}
+
+.input-25 {
+    width: 100%;
+    max-width: 150px;
+}
+
+.input-17 {
+    width: 100%;
+    max-width: 100px;
+}
+
+.opacity {
+    opacity: 50%;
+}
+
+

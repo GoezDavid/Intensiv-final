@@ -1,0 +1,14 @@
+{
+  "name": "Intensiv-final",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:GoezDavid/Intensiv-final.git",
+  "author": "goezdavid <goez.david.96@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "devDependencies": {
+    "sass": "^1.34.1"
+  }
+}

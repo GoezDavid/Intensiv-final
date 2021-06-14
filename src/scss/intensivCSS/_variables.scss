@@ -1,0 +1,20 @@
+// TABLE DES MATIERES
+// 1.0 MODULE GRID 
+
+// VARIABLES DU MODULE GRID
+ 
+$grillesColonnesNombres: 12;
+$grillesGoutieres: .5rem;
+
+$grilleBreakPoint : (
+"xs" : "0",
+"s" : "600px",
+"m" : "800px",
+"l" : "1024px",
+"xl" : "1240px"
+);
+
+//font
+$fontText: 'Merriweather', Georgia, serif;
+$fontTitle: 'Source Sans Pro', Helvetica, sans-serif;
+

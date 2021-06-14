@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
+//VARIABLES TYPOGRAPHY
+
+//PARAGRAPHES
+
+$font-1: 'Merriweather', serif;
+$font-color-default: $black;
+$font-size-default: 1.1em;
+$font-weight-default: 300;
+$line-height-default: 1.65;
+
+
+
+
+
+//TITRES
+
+//H1
+$font-2: 'Source Sans Pro', sans-serif;
+$font-color-h1: $black;
+$font-size-h1: 2.5rem;
+$font-weight-h1: 300;
+$line-height-h1: 1.2;
+$margin-h1: 0 0 .7rem 0;
+$letter-spacing-h1: -.025em;
+
+//H2
+$font-2: 'Source Sans Pro', sans-serif;
+$font-color-h2: $black;
+$font-size-h2: 1.5rem;
+$font-weight-h2: 300;
+$line-height-h2: 1.5;
+$margin-h2: 0 0 .7rem 0;
+$letter-spacing-h2: -.025em;
+
+//H3
+$font-2: 'Source Sans Pro', sans-serif;
+$font-color-h3: $black;
+$font-size-h3: 1.25rem;
+$font-weight-h3: 300;
+$line-height-h3: 1.5;
+$margin-h3: 0 0 .7rem 0;
+$letter-spacing-h3: -.025em;
+
+//H4
+$font-2: 'Source Sans Pro', sans-serif;
+$font-color-h4: $black;
+$font-size-h4: 1.1rem;
+$font-weight-h4: 300;
+$line-height-h4: 1.5;
+$margin-h4: 0 0 .7rem 0;
+$letter-spacing-h4: -.025em;
+
+//H5
+$font-2: 'Source Sans Pro', sans-serif;
+$font-color-h5: $black;
+$font-size-h5: 0.75rem;
+$font-weight-h5: 300;
+$line-height-h5: 1.5;
+$margin-h5: 0 0 .7rem 0;
+$letter-spacing-h5: -.025em;
+
+//H6
+$font-2: 'Source Sans Pro', sans-serif;
+$font-color-h6: $black;
+$font-size-h6: 0.5rem;
+$font-weight-h6: 300;
+$line-height-h6: 1.5;
+$margin-h6: 0 0 .7rem 0;
+$letter-spacing-h6: -.025em;
+
+
+// LINK
+$link-color: $black;
+$link-decoration: underline dotted;
+$link-hober-color: $black;
+$link-hover-decoration: none;
+
+//CODE
+$code-color: $grey;
+$code-background: $white;
+$code-padding: .1em;
+$code-border: $grey 1px solid;
+$code-border-radius: 2px;
+
+//HR
+$hr-color: $white;
+$hr-height: 1px;
+$hr-margin: 3rem 0;
+
+//BLOCkQUOTE
+$blockquote-color: $black;
+$blockquote-height: 200px;
+
+//PREFORMATED
+$pre-color: $grey;
+$pre-background: $white;
+$pre-border: $grey solid 2px;
+$pre-padding: 1rem;
+
+//TABLEAU
+$tableau-font: 'Merriweather', serif;
+$tableau-font-color: $black;
+
+
+// DEFAULT SPECIFICATION
+
+body {
+    font-family: $font-1;
+    font-size: $font-size-default;
+    font-weight: $font-weight-default;
+    line-height:$line-height-default;
+    color: $font-color-default;
+}
+
+a{
+    color: $link-color;
+text-decoration: $link-decoration;
+&:hover{
+color: $link-hober-color;
+text-decoration: $link-hover-decoration;
+}
+ }
+ 
+
+
+ code{
+    color: $code-color;
+    background:  $code-background;
+    padding:  $code-padding;
+    border:  $code-border;
+    border-radius: $code-border-radius;
+ }
+
+
+hr {
+color: $hr-color;
+height: $hr-height;
+margin: $hr-margin;
+}
+
+blockquote {
+color: $blockquote-color;
+display: inline-block;
+border-left: 4px solid $white;
+height:  $blockquote-height;
+padding-left: 1em;
+
+}
+
+pre {
+color: $pre-color;
+background: $pre-background;
+border: $pre-border;
+padding: $pre-padding;
+}
+
+h1, .h1 {
+    font-family: $font-2;
+    font-size: $font-size-h1;
+    font-weight: $font-weight-h1;
+    line-height:$line-height-h1;
+    color: $font-color-h1; 
+    margin: $margin-h1;
+    letter-spacing: $letter-spacing-h1;  
+}
+
+h2, .h2 {
+    font-family: $font-2;
+    font-size: $font-size-h2;
+    font-weight: $font-weight-h2;
+    line-height:$line-height-h2;
+    color: $font-color-h2; 
+    margin: $margin-h2;
+    letter-spacing: $letter-spacing-h2;  
+}
+
+h3, .h3 {
+    font-family: $font-2;
+    font-size: $font-size-h3;
+    font-weight: $font-weight-h3;
+    line-height:$line-height-h3;
+    color: $font-color-h3; 
+    margin: $margin-h3;
+    letter-spacing: $letter-spacing-h3;  
+}
+
+h4, .h4 {
+    font-family: $font-2;
+    font-size: $font-size-h4;
+    font-weight: $font-weight-h4;
+    line-height:$line-height-h4;
+    color: $font-color-h4; 
+    margin: $margin-h4;
+    letter-spacing: $letter-spacing-h4;  
+}
+
+h5, .h5 {
+    font-family: $font-2;
+    font-size: $font-size-h5;
+    font-weight: $font-weight-h5;
+    line-height:$line-height-h5;
+    color: $font-color-h5; 
+    margin: $margin-h5;
+    letter-spacing: $letter-spacing-h5;  
+}
+
+h6, .h6 {
+    font-family: $font-2;
+    font-size: $font-size-h6;
+    font-weight: $font-weight-h6;
+    line-height:$line-height-h6;
+    color: $font-color-h6; 
+    margin: $margin-h6;
+    letter-spacing: $letter-spacing-h6;  
+}
