@@ -1,7 +1,11 @@
+//  MODULE DE NAVIGATION
+
+
+
 .menu-horizontale {
     
     
-  background-color: grey;
+  background-color: $grey;
   
   width: 100%;
   max-width: 1200px;
@@ -28,11 +32,11 @@
            padding: 1em;
            &.active {
                background: white;
-               color: black;
+               color: $black;
            }
            &:hover {
                background: white;
-               color: black;
+               color: $black;
            }
        }
       
@@ -52,7 +56,7 @@
             & a {
                 color: white;
                &:hover {
-                   color: #18BFEF;
+                   color:  $blue;
                }
             }
         }
@@ -75,7 +79,7 @@
 
           & a {
             text-decoration: none;
-            color: black;
+            color: $black;
             
         }
       } 
@@ -84,9 +88,9 @@
          
          position: fixed;
          top: 0.5em;
-         right: 5em;
+         right: 0em;
          display: block;
-         background: #212931;
+         background: $black;
          color: white;
          padding: .5em;
          font-size: 2rem;
@@ -104,20 +108,20 @@
     
        & a {
            display:block;
-        color: black;
+        color: $black;
         padding: .5em;
-        border-bottom: solid #f6f6f6;
+        border-bottom: solid $white;
         &:hover {
-            color: #18BFEF;
+            color:  $blue;
             
         }
          & i {
              border-radius: 100% ;
-             border: 1px solid #f6f6f6;
+             border: 1px solid $white;
              padding: 1em;
              &:hover {
-                 color: #18BFEF;
-                border-color: #18BFEF;
+                 color:  $blue;
+                border-color:  $blue;
              }
          }
        }
@@ -136,19 +140,19 @@
       padding: 0;
 
       & button {
-          border: #717981 solid 2px;
-          background-color: #f6f6f6; 
-          color: black;
+          border: $grey solid 2px;
+          background-color: $white; 
+          color: $black;
           
           &:hover {
-              color: #18BFEF;
-              border-color: #18BFEF;
+              color:  $blue;
+              border-color:  $blue;
           }
 
       }
   }
 
   .active-btn {
-    background:  #212931;
-    color: #212931;
+    background:  $black;
+    color: $black;
   }

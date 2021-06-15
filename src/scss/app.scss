@@ -3,7 +3,7 @@
 // ELEMENTS PARTICULIERS
 
 body {
-    background: linear-gradient(#212931,#4e403d ) ;
+    background: linear-gradient($black, $brown ) ;
 }
 
 .main-header {
@@ -11,8 +11,10 @@ body {
     & .logo-container {
         border: solid white;
         display: inline-block;
-        margin-bottom: 5rem;
-        margin-top: 20rem;     
+        width: 100%;
+        max-width: 400px;
+        margin-top: 10rem;  
+        margin-bottom: 5rem;   
    & .logo {
     color: white;
     padding: 2rem;
@@ -24,18 +26,26 @@ body {
 }
 
 .start-logo {
-    margin: auto;
+    
     padding: 3rem;
-    width: 60%;
+    margin-bottom: 5rem;
+
     & h1 {
         margin: auto;
   font-size: 4.5rem;
-  width: 50%;
+  width: 100%;
+  max-width: 400px;
     }
     & p {
         padding: 1.24rem;
+        width: 100%;
+        max-width: 400px;
+        margin: auto;
         & i {
             font-size: 4rem;
+            width: 100%;
+            max-width: 400px;
+            margin: auto;
         }
     }
 }
@@ -48,8 +58,8 @@ background: white;
 }
 
 .main-footer {
-    background: #f6f6f6;
-    color: black;
+    background: $white;
+    color: $black;
 margin: 0;
 padding: 0;
 
@@ -63,14 +73,14 @@ padding: 0;
         & a {
             text-decoration: none;
             border-radius:  100%;
-            border: grey solid 2px;
+            border: $grey solid 2px;
             padding: 1em;
             margin: 1em;
 
 
             &:hover {
-                color: #18BFEF;
-                border-color: #18BFEF;
+                color:  $blue;
+                border-color:  $blue;
                 
             }
         }
@@ -81,6 +91,7 @@ padding: 0;
 }
 
 .site-footer {
+    margin: 2rem;
 color: white;
 }
 

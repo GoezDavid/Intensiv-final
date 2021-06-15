@@ -1,4 +1,4 @@
-
+// MODULE DES BOITES
 
 //-------------------------------------------------
 //ALIGNEMENT DES CONTENUS
@@ -47,8 +47,10 @@
     padding: 1rem;
 }
 .boite-img {
-    width: 100%;
-    max-width: 400px;
+    
+width: 100%;
+    
+    
 }
      
 //  BLOCKS
@@ -94,8 +96,8 @@
 
 
             &:hover {
-                color: #18BFEF;
-                border-color: #18BFEF;
+                color: $blue;
+                border-color:  $blue;
                 
             }
         }
@@ -122,14 +124,14 @@
         & a {
             text-decoration: none;
             border-radius:  100%;
-            border: grey solid 1px;
+            border: $grey solid 1px;
             padding: 0.5rem;
             
 
 
             &:hover {
-                color: #18BFEF;
-                border-color: #18BFEF;
+                color:  $blue;
+                border-color:  $blue;
                 
             }
         }
@@ -140,7 +142,7 @@
 //IMAGE
 
 .fill {
-    object-fit: unset;
+    object-fit: contain;
   }
 
   .overflow {
@@ -149,10 +151,11 @@
     
 }
 .fit {
+    object-fit: cover;
     width: 100%;
         }
     
- 
+ //GALLERIE
  
 /*.galerie {
     display: flex;
@@ -177,23 +180,35 @@
 */
 
 .item {
+    
     width: 300px;
     height: 150px;
     overflow: hidden;
+    margin: auto;
+    object-fit: contain;
 
 }
 
   //BORDER
 
   .border {
-      border: 1px solid #717981;
+      border: 1px solid $grey;
 
   }
 
-
-// background
+// BACKGROUND
 
 .background {
-    background: #f6f6f6;
+    background: $white;
  
+}
+
+// TITRE
+
+.titre {
+    margin: 1rem;
+    padding: 1rem;
+    &:hover {
+        color: $blue;
+    }
 }
